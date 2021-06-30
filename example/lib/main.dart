@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 
-import 'package:flutter/services.dart';
 import 'package:flutter_forbidshot/flutter_forbidshot.dart';
 
 void main() => runApp(MyApp());
@@ -50,14 +49,14 @@ class _MyAppState extends State<MyApp> {
         body: Center(
           child: Column(
             children: <Widget>[
-              Text('IOS:isCaptured:${isCaptured}'),
-              RaisedButton(
+              Text('IOS:isCaptured:$isCaptured'),
+              ElevatedButton(
                 child: Text('Android forbidshot on'),
                 onPressed: () {
                   FlutterForbidshot.setAndroidForbidOn();
                 },
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Android forbidshot off'),
                 onPressed: () {
                   FlutterForbidshot.setAndroidForbidOff();
