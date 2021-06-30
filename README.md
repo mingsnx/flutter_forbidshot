@@ -1,11 +1,14 @@
 # flutter_forbidshot
+
+修改至空安全版本
+
 [![pub package](https://img.shields.io/pub/v/flutter_forbidshot.svg)](https://pub.dev/packages/flutter_forbidshot)
 A Flutter plugin to prevent capture and record screen on ios and android.
 
 ## Setup
 
 ```
-flutter_forbidshot: 0.0.2
+flutter_forbidshot: 1.0.0
 ```
 
 ## Usage
