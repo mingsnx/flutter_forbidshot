@@ -5,11 +5,11 @@ import android.provider.Settings;
 import android.view.WindowManager;
 import android.media.AudioManager;
 
-import io.flutter.plugin.common.MethodCall;
+import androidx.annotation.NonNull;
+import io.flutter.embedding.android.FlutterActivity;
+import io.flutter.embedding.engine.FlutterEngine;
 import io.flutter.plugin.common.MethodChannel;
-import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
-import io.flutter.plugin.common.MethodChannel.Result;
-import io.flutter.plugin.common.PluginRegistry.Registrar;
+import io.flutter.plugins.GeneratedPluginRegistrant;
 
 /** FlutterForbidshotPlugin */
 public class FlutterForbidshotPlugin implements MethodCallHandler {
